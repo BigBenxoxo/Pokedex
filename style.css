@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/af/92/99/af92992e01ed558690e8d6e0bbefb0c9.jpg);
+  font-family: 'Open Sans', sans-serif;
+  margin: 5rem;
+  text-align: center;
+  color: white;
+}
+
+#pokemon-cards {
+  max-width: 1200px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  color: darkcyan;
+  font-variant-caps: all-petite-caps;
+  font-size: large;
+}
+
+input {
+  width: 10rem;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: 2px solid green;
+}
+
+h1 {
+font-weight: bolder;
+  margin: 10px;
+  color: yellow;
+}
+
+.button {
+padding: 5px;
+  margin: 2px;
+  background-color: whitesmoke;
+}
+
+.button:hover {
+
+  cursor: pointer;
+  background-color: rgba(245, 245, 245, 0.678);
+}
+
+.pokemon-card {
+  background-color: rgba(245, 245, 220, 0.82);
+  padding: 12px;
+  border-radius: 5px;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+}
+
+.pokemon-card:hover {
+  background-color: lightgreen;
+}
